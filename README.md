@@ -15,4 +15,8 @@
 
 ### License : MIT
 
+### To Install Libraries
+
+- pip install -r requirements.txt
+
 ### You are welcome to update these source codes if them contain any miss matches
