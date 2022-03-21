@@ -8,5 +8,5 @@ def extract_mfcc():
     # Cut off silence parts from the signal audio data
     data = svt.rms_silence_filter(data)
     # Compute MFCC features from an audio signal
-    data = svt.extract_mfcc(data)
+    data = svt.extract_mfcc(data, cps)
     return data

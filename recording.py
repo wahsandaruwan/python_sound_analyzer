@@ -2,7 +2,7 @@ import sounddevice
 from scipy.io.wavfile import write
 
 # Sample rate
-cps = 44100
+cps = 22050
 # Clip duration
 length = 10
 
